@@ -81,14 +81,62 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/a-memory-of-john-hay.xhtml" id="a-memory-of-john-hay.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/about-dueling.xhtml" id="about-dueling.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/about-general-sickles.xhtml" id="about-general-sickles.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapters-begun-in-vienna.xhtml" id="chapters-begun-in-vienna.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/early-years-in-florida-missouri.xhtml" id="early-years-in-florida-missouri.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/foreword.xhtml" id="foreword.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/henry-h-rogers.xhtml" id="henry-h-rogers.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/interval-of-two-years.xhtml" id="interval-of-two-years.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/mark-twain.xhtml" id="mark-twain.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/mrs-morriss-illness-takes-a-serious-turn.xhtml" id="mrs-morriss-illness-takes-a-serious-turn.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/notes-on-innocents-abroad.xhtml" id="notes-on-innocents-abroad.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/private-history-of-a-ms-that-came-to-grief.xhtml" id="private-history-of-a-ms-that-came-to-grief.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/stevenson-aldrich-etc.xhtml" id="stevenson-aldrich-etc.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-character-of-man.xhtml" id="the-character-of-man.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-grant-dictations.xhtml" id="the-grant-dictations.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-machine-episode.xhtml" id="the-machine-episode.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-tennessee-land.xhtml" id="the-tennessee-land.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/villa-quarto.xhtml" id="villa-quarto.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/volume-1.xhtml" id="volume-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/volume-2.xhtml" id="volume-2.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="foreword.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
+		<itemref idref="volume-1.xhtml"/>
+		<itemref idref="the-tennessee-land.xhtml"/>
+		<itemref idref="early-years-in-florida-missouri.xhtml"/>
+		<itemref idref="the-grant-dictations.xhtml"/>
+		<itemref idref="the-machine-episode.xhtml"/>
+		<itemref idref="chapters-begun-in-vienna.xhtml"/>
+		<itemref idref="private-history-of-a-ms-that-came-to-grief.xhtml"/>
+		<itemref idref="villa-quarto.xhtml"/>
+		<itemref idref="a-memory-of-john-hay.xhtml"/>
+		<itemref idref="notes-on-innocents-abroad.xhtml"/>
+		<itemref idref="stevenson-aldrich-etc.xhtml"/>
+		<itemref idref="henry-h-rogers.xhtml"/>
+		<itemref idref="interval-of-two-years.xhtml"/>
+		<itemref idref="mrs-morriss-illness-takes-a-serious-turn.xhtml"/>
+		<itemref idref="about-general-sickles.xhtml"/>
+		<itemref idref="about-dueling.xhtml"/>
+		<itemref idref="volume-2.xhtml"/>
+		<itemref idref="mark-twain.xhtml"/>
+		<itemref idref="the-character-of-man.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
