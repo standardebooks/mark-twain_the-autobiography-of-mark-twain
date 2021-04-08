@@ -5,11 +5,6 @@ section{
 	break-after: page;
 }
 
-blockquote header{
-	font-variant: small-caps;
-	padding-bottom: 1em;
-}
-
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
@@ -18,8 +13,41 @@ blockquote header{
 	text-indent: 0;
 }
 
+abbr.era{
+	font-variant: all-small-caps;
+}
+
+/* Letters */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+/* End letters */
+
 /* “The Character of Man” */
-#the-character-of-man-37 blockquote header p + p{
+/* #the-character-of-man-37 blockquote header p + p{
 	border: none;
 	border-top: 1px solid;
 	margin: 1em auto;
@@ -35,5 +63,5 @@ blockquote header{
 #the-character-of-man blockquote header p i{
 	font-variant: normal;
 	font-style: italic;
-}
+} */
 /* End “The Character of Man” */
