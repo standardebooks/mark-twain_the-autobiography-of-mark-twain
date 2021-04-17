@@ -63,7 +63,7 @@ footer{
 #the-machine-episode header > p,
 #chapters-begun-in-vienna header > p,
 #private-history-of-a-ms-that-came-to-grief header h3 + p,
-#villa-quarto header > p,
+#villa-quarto-1 header > p,
 #notes-on-innocents-abroad header > p,
 #stevenson-aldrich-etc header > p,
 #henry-h-rogers h3 + p,
@@ -100,6 +100,7 @@ footer{
 #the-character-of-man-19 blockquote:last-of-type header p,
 #the-character-of-man-22 blockquote header p,
 #the-character-of-man-23 blockquote header p:nth-of-type(2),
+#the-character-of-man-27 blockquote header p,
 #the-character-of-man-30 blockquote header p,
 #the-character-of-man-32 blockquote:first-of-type header p:nth-of-type(2){
 	font-variant: small-caps;
@@ -123,6 +124,8 @@ footer{
 	padding-bottom: 1em;
 }
 
+#the-character-of-man-15 header p[epub|type~="bridgehead"],
+#the-character-of-man-15 header p:nth-of-type(2),
 #the-character-of-man-32 blockquote:nth-of-type(2) header,
 #the-character-of-man-32 blockquote:nth-of-type(3) header,
 #the-character-of-man-36 blockquote:first-of-type header,
