@@ -72,9 +72,14 @@ footer{
 #mrs-morriss-illness-takes-a-serious-turn-2 header h4 + p,
 #about-general-sickles header > p,
 #about-dueling header > p,
-#mark-twain header h3 + p{
+#mark-twain header h3 + p,
+#the-character-of-man-27 header h4 + p{
 	font-style: italic;
 	text-align: right;
+}
+
+#interval-of-two-years header p:first-of-type{
+	padding-bottom: 1em;
 }
 /* End dates */
 
@@ -82,7 +87,7 @@ footer{
 #private-history-of-a-ms-that-came-to-grief-letter div header > p{
 	font-variant: small-caps;
 	text-align: center;
-	padding-bottom: 1em;
+	padding: 1em;
 }
 /* End “Private History” */
 
@@ -109,7 +114,9 @@ footer{
 
 #the-character-of-man-15 header p[epub|type~="bridgehead"] + p,
 #the-character-of-man-23 header p b,
-#the-character-of-man-32 header p b,
+#the-character-of-man-32 blockquote:first-of-type header p b,
+#the-character-of-man-32 blockquote:nth-of-type(2) header p b,
+#the-character-of-man-32 blockquote:nth-of-type(3) header p b,
 #the-character-of-man-36 blockquote:first-of-type header p b,
 #the-character-of-man-37 blockquote:first-of-type header p b,
 #the-character-of-man-38 header p b,
@@ -126,6 +133,7 @@ footer{
 
 #the-character-of-man-15 header p[epub|type~="bridgehead"],
 #the-character-of-man-15 header p:nth-of-type(2),
+#the-character-of-man-27 header p:first-of-type,
 #the-character-of-man-32 blockquote:nth-of-type(2) header,
 #the-character-of-man-32 blockquote:nth-of-type(3) header,
 #the-character-of-man-36 blockquote:first-of-type header,
