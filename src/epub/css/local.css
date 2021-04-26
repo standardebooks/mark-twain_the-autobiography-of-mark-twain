@@ -51,6 +51,11 @@ footer{
 }
 /* End letters */
 
+#private-history-of-a-ms-that-came-to-grief-letter blockquote{
+	margin-left: 0;
+	margin-right: 0;
+}
+
 /* Dates */
 .date{
 	font-style: italic;
