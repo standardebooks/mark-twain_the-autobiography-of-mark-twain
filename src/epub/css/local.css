@@ -52,36 +52,56 @@ footer{
 /* End letters */
 
 /* Dates */
-#the-tennessee-land header > p,
-#early-years-in-florida-missouri header > p,
-#the-chicago-gar-festival header > p,
-#grant-and-the-chinese header > p,
-#a-call-with-w-d-howells-on-general-grant header > p,
-#about-general-grants-memoirs header > p,
-#gerhardt-and-the-grant-bust header > p,
-#the-reverend-doctor-n-visits-general-grant header > p,
-#the-machine-episode header > p,
-#chapters-begun-in-vienna header > p,
-#private-history-of-a-ms-that-came-to-grief header h3 + p,
-#villa-quarto-1 header > p,
-#notes-on-innocents-abroad header > p,
-#stevenson-aldrich-etc header > p,
-#henry-h-rogers h3 + p,
-#henry-h-rogers h4 + p,
-#interval-of-two-years header h3 + p,
-#mrs-morriss-illness-takes-a-serious-turn-2 header h4 + p,
-#about-general-sickles header > p,
-#about-dueling header > p,
-#mark-twain header h3 + p,
-#the-character-of-man-27 header h4 + p{
+.date{
 	font-style: italic;
 	text-align: right;
 }
 
-#interval-of-two-years header p:first-of-type{
+p.date + p{
+	padding-top: 1em;
+}
+
+#the-character-of-man-19 .date{
 	padding-bottom: 1em;
 }
 /* End dates */
+
+/* “Headlines” */
+blockquote header.headline{
+	padding-bottom: 1em;
+}
+
+.headline p{
+	font-variant: small-caps;
+}
+
+.headline p b{
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+.headline p i{
+	font-style: italic;
+	font-variant: normal;
+}
+
+.headline p + p{
+	padding-top: 1em;
+}
+
+.headline p[epub|type~="bridgehead"],
+#mrs-morriss-illness-takes-a-serious-turn .headline p:first-of-type,
+#mrs-morriss-illness-takes-a-serious-turn .headline p:nth-of-type(3),
+#the-character-of-man-15 .headline p:last-of-type,
+#the-character-of-man-23 .headline p:last-of-type{
+	font-variant: normal;
+	text-transform: none;
+}
+
+#the-character-of-man-15 .headline p:last-of-type b{
+	text-transform: none;
+}
+/* End headlines */
 
 /* “Private History” */
 #private-history-of-a-ms-that-came-to-grief-letter div header > p{
@@ -90,73 +110,3 @@ footer{
 	padding: 1em;
 }
 /* End “Private History” */
-
-/* “The Character of Man” */
-#the-character-of-man-8 blockquote header p,
-#the-character-of-man-9 blockquote header p,
-#the-character-of-man-10 blockquote header p,
-#the-character-of-man-11 blockquote header p,
-#the-character-of-man-12 blockquote header p,
-#the-character-of-man-13 blockquote header p,
-#the-character-of-man-14 blockquote header p,
-#the-character-of-man-17 blockquote header p,
-#the-character-of-man-19 blockquote:first-of-type header p,
-#the-character-of-man-19 blockquote:nth-of-type(2) header p,
-#the-character-of-man-19 blockquote:last-of-type header p,
-#the-character-of-man-22 blockquote header p,
-#the-character-of-man-23 blockquote header p:nth-of-type(2),
-#the-character-of-man-27 blockquote header p,
-#the-character-of-man-30 blockquote header p,
-#the-character-of-man-32 blockquote:first-of-type header p:nth-of-type(2){
-	font-variant: small-caps;
-	padding-bottom: 1em;
-}
-
-#the-character-of-man-15 header p[epub|type~="bridgehead"] + p,
-#the-character-of-man-23 header p b,
-#the-character-of-man-32 blockquote:first-of-type header p b,
-#the-character-of-man-32 blockquote:nth-of-type(2) header p b,
-#the-character-of-man-32 blockquote:nth-of-type(3) header p b,
-#the-character-of-man-36 blockquote:first-of-type header p b,
-#the-character-of-man-37 blockquote:first-of-type header p b,
-#the-character-of-man-38 header p b,
-#the-character-of-man-41 blockquote:first-of-type header p b{
-	text-transform: uppercase;
-	font-style: normal;
-}
-
-#the-character-of-man-19 blockquote:nth-of-type(3) header p{
-	font-style: italic;
-	text-align: right;
-	padding-bottom: 1em;
-}
-
-#the-character-of-man-15 header p[epub|type~="bridgehead"],
-#the-character-of-man-15 header p:nth-of-type(2),
-#the-character-of-man-27 header p:first-of-type,
-#the-character-of-man-32 blockquote:nth-of-type(2) header,
-#the-character-of-man-32 blockquote:nth-of-type(3) header,
-#the-character-of-man-36 blockquote:first-of-type header,
-#the-character-of-man-36 blockquote:first-of-type header p:nth-of-type(1),
-#the-character-of-man-36 blockquote:first-of-type header p:nth-of-type(2),
-#the-character-of-man-36 blockquote:first-of-type header p:nth-of-type(3),
-#the-character-of-man-36 blockquote:first-of-type header p:nth-of-type(4),
-#the-character-of-man-37 blockquote:first-of-type header p:nth-of-type(1),
-#the-character-of-man-37 blockquote:first-of-type header p:nth-of-type(2),
-#the-character-of-man-37 blockquote:first-of-type header p:nth-of-type(3),
-#the-character-of-man-37 blockquote:first-of-type header p:nth-of-type(4),
-#the-character-of-man-38 header p:nth-of-type(1),
-#the-character-of-man-38 header p:nth-of-type(2),
-#the-character-of-man-38 header p:nth-of-type(3),
-#the-character-of-man-41 blockquote:first-of-type header{
-	padding-bottom: 1em;
-}
-
-#the-character-of-man-36 blockquote:first-of-type header p:nth-of-type(3),
-#the-character-of-man-37 blockquote header p:nth-of-type(2),
-#the-character-of-man-37 blockquote header p:nth-of-type(3),
-#the-character-of-man-38 header p:nth-of-type(3),
-#the-character-of-man-38 blockquote header p{
-	font-variant: small-caps;
-}
-/* End “The Character of Man” */
