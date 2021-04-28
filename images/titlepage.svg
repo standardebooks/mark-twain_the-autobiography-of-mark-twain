@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 440">
-	<title>The titlepage for the Standard Ebooks edition of The Autobiography of Mark Twain, by Mark Twain</title>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 340">
+	<title>The titlepage for the Standard Ebooks edition of The Autobiography, by Mark Twain</title>
 	<style type="text/css">
 		text{
 			font-family: "League Spartan";
@@ -17,6 +17,5 @@
 		}
 	</style>
 	<text class="title" x="700" y="130">THE AUTOBIOGRAPHY</text>
-	<text class="title" x="700" y="230">OF MARK TWAIN</text>
-	<text class="author" x="700" y="390">MARK TWAIN</text>
+	<text class="author" x="700" y="290">MARK TWAIN</text>
 </svg>
