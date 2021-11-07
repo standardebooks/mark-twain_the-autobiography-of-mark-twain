@@ -70,7 +70,7 @@
 		<dc:contributor id="artist">A. H. Wyant</dc:contributor>
 		<meta property="file-as" refines="#artist">Wyant, A. H.</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Alexander Helwig Wyant</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.m.wikipedia.org/wiki/Alexander_Helwig_Wyant</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Alexander_Helwig_Wyant</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86813274</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Don Lainson</dc:contributor>
