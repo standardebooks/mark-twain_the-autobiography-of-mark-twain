@@ -81,8 +81,8 @@ blockquote header.headline{
 }
 
 .headline p b{
-	text-transform: uppercase;
 	font-style: normal;
+	text-transform: uppercase;
 }
 
 .headline p i{
@@ -111,7 +111,7 @@ blockquote header.headline{
 /* “Private History” */
 #private-history-of-a-ms-that-came-to-grief-letter div header > p{
 	font-variant: small-caps;
-	text-align: center;
 	padding: 1em;
+	text-align: center;
 }
 /* End “Private History” */
