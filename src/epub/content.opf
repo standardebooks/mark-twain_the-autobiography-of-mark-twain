@@ -42,7 +42,7 @@
 		<dc:description id="description">A collection of reminiscences and reflections from the author’s experiences.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Autobiography of Mark Twain&lt;/i&gt; is a collection of reminiscences and reflections. &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Twain&lt;/a&gt; began dictating them in 1870, and in 1906 he published &lt;i&gt;Chapters from My Autobiography&lt;/i&gt; in twenty-five installments in the &lt;i&gt;North American Review&lt;/i&gt;. He continued to write stories for his autobiography, most of which weren’t published in his lifetime due to a lack of access to his papers, or their private subject matters. After Twain’s death, numerous editors have tried to organize this collection of published and unpublished autobiographical works, producing various differing editions. The most recent attempt is by the Mark Twain Project at the University of California, Berkeley, which published a three-volume edition; but, through what many consider legal trickery, the University of California, Berkeley has claimed copyright on that edition until 2047—137 years after Twain’s death.&lt;/p&gt;
-			&lt;p&gt;This Standard Ebooks production is based on Harper and Brothers’ 1924 collection, compiled by Albert Bigelow Paine.&lt;/p&gt;
+			&lt;p&gt;This Standard Ebooks edition is based on Harper and Brothers’ 1924 collection, compiled by Albert Bigelow Paine.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>http://www.gutenberg.net.au/ebooks02/0200551h.html</dc:source>
