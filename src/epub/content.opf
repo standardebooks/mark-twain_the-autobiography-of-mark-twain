@@ -45,8 +45,8 @@
 			&lt;p&gt;This Standard Ebooks edition is based on Harper and Brothers’ 1924 collection, compiled by Albert Bigelow Paine.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
-		<dc:source>http://www.gutenberg.net.au/ebooks02/0200551h.html</dc:source>
-		<dc:source>http://www.gutenberg.net.au/ebooks02/0200561h.html</dc:source>
+		<dc:source>https://gutenberg.net.au/ebooks02/0200551h.html</dc:source>
+		<dc:source>https://gutenberg.net.au/ebooks02/0200561h.html</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000665089</dc:source>
 		<meta property="se:word-count">196976</meta>
 		<meta property="se:reading-ease.flesch">67.28</meta>
