@@ -39,6 +39,9 @@
 		<meta property="term" refines="#subject-3">sh2008105924</meta>
 		<meta property="se:subject">Autobiography</meta>
 		<meta property="se:subject">Nonfiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Modern Library’s 100 Best Nonfiction</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">43</meta>
 		<dc:description id="description">A collection of reminiscences and reflections from the author’s experiences.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Autobiography of Mark Twain&lt;/i&gt; is a collection of reminiscences and reflections. &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Twain&lt;/a&gt; began dictating them in 1870, and in 1906 he published &lt;i&gt;Chapters from My Autobiography&lt;/i&gt; in twenty-five installments in the &lt;i&gt;North American Review&lt;/i&gt;. He continued to write stories for his autobiography, most of which weren’t published in his lifetime due to a lack of access to his papers, or their private subject matters. After Twain’s death, numerous editors have tried to organize this collection of published and unpublished autobiographical works, producing various differing editions. The most recent attempt is by the Mark Twain Project at the University of California, Berkeley, which published a three-volume edition; but, through what many consider legal trickery, the University of California, Berkeley has claimed copyright on that edition until 2047—137 years after Twain’s death.&lt;/p&gt;
