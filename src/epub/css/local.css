@@ -18,6 +18,10 @@ section{
 	text-indent: 0;
 }
 
+[epub|type~="bridgehead"] i{
+	font-style: normal;
+}
+
 [epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
