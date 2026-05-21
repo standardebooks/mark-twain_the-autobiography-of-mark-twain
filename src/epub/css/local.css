@@ -10,7 +10,7 @@ section{
 	break-after: page;
 }
 
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
@@ -18,7 +18,7 @@ section{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
+[epub|type~="se:bridgehead"] i{
 	font-style: normal;
 }
 
@@ -98,7 +98,7 @@ blockquote header.headline{
 	padding-top: 1em;
 }
 
-.headline p[epub|type~="bridgehead"],
+.headline p[epub|type~="se:bridgehead"],
 #mrs-morriss-illness-takes-a-serious-turn .headline p:first-of-type,
 #mrs-morriss-illness-takes-a-serious-turn .headline p:nth-of-type(3),
 #the-character-of-man-15 .headline p:last-of-type,
