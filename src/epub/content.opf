@@ -74,9 +74,8 @@
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">win</meta>
-		<dc:contributor id="artist">A. H. Wyant</dc:contributor>
-		<meta property="file-as" refines="#artist">Wyant, A. H.</meta>
-		<meta property="schema:alternateName" refines="#artist">Alexander Helwig Wyant</meta>
+		<dc:contributor id="artist">Alexander Helwig Wyant</dc:contributor>
+		<meta property="file-as" refines="#artist">Wyant, Alexander Helwig</meta>
 		<link href="https://en.wikipedia.org/wiki/Alexander_Helwig_Wyant" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n86813274.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
